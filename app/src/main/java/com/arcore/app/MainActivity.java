@@ -10,12 +10,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-
 import com.google.ar.core.Frame;
 import com.google.ar.core.LightEstimate;
 import com.google.ar.core.Plane;
@@ -26,7 +24,6 @@ import com.google.ar.core.exceptions.RecordingFailedException;
 import com.google.ar.sceneform.FrameTime;
 import com.google.ar.sceneform.Scene;
 import com.google.ar.sceneform.ux.ArFragment;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.nio.FloatBuffer;
